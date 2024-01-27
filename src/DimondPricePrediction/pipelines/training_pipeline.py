@@ -11,7 +11,7 @@ import pandas as pd
 
 obj = DataIngestion()
 
-train_data_path,test_data_path=obj.initiate_data_injection()
+train_data_path,test_data_path=obj.initiate_data_ingestion()
 
 data_transformation = DataTransformation()
 
