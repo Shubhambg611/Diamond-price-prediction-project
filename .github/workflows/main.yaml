@@ -4,11 +4,12 @@ on:
     branches:
       - master
 
+
+
 jobs:
   build-and-push-ecr-image:
-    name: Bulid image
+    name: Bulid Image
     runs-on: ubuntu-latest
-    
     steps:
     - name: Check out code
       uses: actions/checkout@v2
